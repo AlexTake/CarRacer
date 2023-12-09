@@ -1,5 +1,4 @@
 using Febucci.UI;
-using TMPro;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -14,6 +13,11 @@ public class GameController : MonoBehaviour
     private void Awake()
     {
         Instance = this;
+        
+    }
+
+    private void Start()
+    {
         AudioManager.Instance.Play("Theme");
     }
 

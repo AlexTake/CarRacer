@@ -22458,7 +22458,7 @@ MonoBehaviour:
     volume: 0.11
     pitch: 1
     source: {fileID: 0}
-    isLooped: 0
+    isLooped: 1
   - name: Shot
     clip: {fileID: 8300000, guid: c49b8b0789fa53245866068d9a22c44b, type: 3}
     volume: 0.02
